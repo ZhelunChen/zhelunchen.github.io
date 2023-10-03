@@ -10,18 +10,23 @@ layout: default
     <p><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
     {% endif %}
     {% if site.json.description %}
-    {% if site.json.description.first %}
+    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
+    {% else %}
+    <p><span class="key">description</span><span class="attr">{{ site.title }}</span></p>
+    {% endif %}
+    {% if site.json.interests %}
+    {% if site.json.interests.first %}
     <div id="typed-strings">
-      {% for i in site.json.description %}
+      {% for i in site.json.interests %}
       <span>{{ i | prepend: '"' | append: '",'}}</span>
       {% endfor %}
     </div>
-    <p><span class="key">description</span>{% include typed.html %}</p>
+    <p><span class="key">interests</span>{% include typed.html %}</p>
     {% else %}
-    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
+    <p><span class="key">interests</span><span class="attr">{{ site.json.interests }}</span></p>
     {% endif %}
     {% else %}
-    <p><span class="key">description</span><span class="attr">{{ site.description }}</span></p>
+    <p><span class="key">interests</span><span class="attr">{{ site.interests }}</span></p>
     {% endif %}
   </div>
   <div class="block">
