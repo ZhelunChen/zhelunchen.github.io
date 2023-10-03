@@ -10,11 +10,12 @@ url: https://zhelunchen.github.io
 json:
   name: Zhelun "Aaron" Chen, PhD
   description:
-    - Hello!
-    - This tiny website
-    - Looks like json
+    - Research Scientist at Drexel University.
+    - Research Vision: Explore the development and evolution of buildings and cities in the global challenges of 1) environmental and climate change, 2) grid transformation, and 3) data explosion.
+    - Research Themes: Computing and modeling for smart buildings and cities in the themes of 1) dynamic building system simulation; 2) artificial intelligence in buildings; 3) well-being in the built environment; 4) grid-interactive efficient buildings; 5) building energy modeling; 6) renewable energy integration in buildings; 7) fault detection and diagnostics.
+    - Teaching Interests: 1) HVAC engineering; 2) data engineering and data science in buildings; 3) built environment.
   cv: assets/cv.pdf
-  where:
+  address:
     - Drexel University
     - Philadelphia, PA, USA
   contact:
