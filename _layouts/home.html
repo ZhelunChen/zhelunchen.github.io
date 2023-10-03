@@ -4,62 +4,62 @@ layout: default
 
 <main class="json">
   <div class="block">
-    {% if site.json.name %}
-    <p><span class="key">name</span><span class="attr">{{ site.json.name }}</span></p>
+    {% if site.json.Name %}
+    <p><span class="key">Name</span><span class="attr">{{ site.json.Name }}</span></p>
     {% else %}
-    <p><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
+    <p><span class="key">Name</span><span class="attr">{{ site.title }}</span></p>
     {% endif %}
-    {% if site.json.description %}
-    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
+    {% if site.json.Description %}
+    <p><span class="key">Description</span><span class="attr">{{ site.json.Description }}</span></p>
     {% else %}
-    <p><span class="key">description</span><span class="attr">{{ site.title }}</span></p>
+    <p><span class="key">Description</span><span class="attr">{{ site.title }}</span></p>
     {% endif %}
-    {% if site.json.interests %}
-    {% if site.json.interests.first %}
+    {% if site.json.Interests %}
+    {% if site.json.Interests.first %}
     <div id="typed-strings">
-      {% for i in site.json.interests %}
+      {% for i in site.json.Interests %}
       <span>{{ i | prepend: '"' | append: '",'}}</span>
       {% endfor %}
     </div>
-    <p><span class="key">interests</span>{% include typed.html %}</p>
+    <p><span class="key">Interests</span>{% include typed.html %}</p>
     {% else %}
-    <p><span class="key">interests</span><span class="attr">{{ site.json.interests }}</span></p>
+    <p><span class="key">Interests</span><span class="attr">{{ site.json.Interests }}</span></p>
     {% endif %}
     {% else %}
-    <p><span class="key">interests</span><span class="attr">{{ site.interests }}</span></p>
+    <p><span class="key">Interests</span><span class="attr">{{ site.Interests }}</span></p>
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.cv %}
-    {% assign cv = site.json.cv | split: "/" | slice: -1 %}
-    <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}" target="_blank">{{ cv }}</a></span></p>
+    {% if site.json.CV %}
+    {% assign CV = site.json.CV | split: "/" | slice: -1 %}
+    <p><span class="key">CV</span><span class="attr"><a href="{{ site.json.CV }}" target="_blank">{{ CV }}</a></span></p>
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.address %}
-    {% if site.json.address.first %}
-    <p><span class="array-key">address</span></p>
+    {% if site.json.Address %}
+    {% if site.json.Address.first %}
+    <p><span class="array-key">Address</span></p>
     <div class="array">
-      {% for i in site.json.address %}
+      {% for i in site.json.Address %}
       <p class="array-attr">{{ i }}</p>
       {% endfor %}
     </div>
     {% else %}
-    <p><span class="key">address</span><span class="attr">{{ site.json.address }}</span></p>
+    <p><span class="key">Address</span><span class="attr">{{ site.json.Address }}</span></p>
     {% endif %}
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.contact %}
-    {% if site.json.contact.first %}
-    <p><span class="list-key">contact</span></p>
+    {% if site.json.Contact %}
+    {% if site.json.Contact.first %}
+    <p><span class="list-key">Contact</span></p>
     <div class="list">
-      {% for i in site.json.contact %}
+      {% for i in site.json.Contact %}
       <p><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></p>
       {% endfor %}
     </div>
     {% else %}
-    <p><span class="key">contact</span><span class="attr">{{ site.json.contact }}</span></p>
+    <p><span class="key">Contact</span><span class="attr">{{ site.json.Contact }}</span></p>
     {% endif %}
     {% endif %}
   </div>
@@ -74,10 +74,10 @@ layout: default
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.profiles %}
-    <span class="array-key">profiles</span>
+    {% if site.json.Profiles %}
+    <span class="array-key">Profiles</span>
     <div class="array">
-      {% for i in site.json.profiles %}
+      {% for i in site.json.Profiles %}
       <p class="array-attr"><a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a></p>
       {% endfor %}
     </div>

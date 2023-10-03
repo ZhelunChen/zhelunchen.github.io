@@ -8,9 +8,9 @@ url: https://zhelunchen.github.io
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Zhelun (Aaron) Chen, PhD
-  description: Research scientist at Drexel University
-  interests:
+  Name: Zhelun (Aaron) Chen, PhD
+  Description: Research scientist at Drexel University
+  Interests:
     - dynamic building system simulation
     - artificial intelligence in buildings
     - well-being in the built environment
@@ -20,16 +20,17 @@ json:
     - fault detection and diagnostics
     - HVAC engineering
     - data science in buildings
-  cv: assets/cv.pdf
-  address:
+  CV: assets/cv.pdf
+  Address:
     - Drexel University
     - Philadelphia, PA, USA
-  contact:
-    phone: +1 412 230 7189
-    email: zl.chen.career@gmail.com
-  profiles:
-    linkedin: https://www.linkedin.com/in/zhelun/
-    github: https://github.com/ZhelunChen
+  Contact:
+    Phone: +1 412 230 7189
+    Email: zl.chen.career@gmail.com
+  Profiles:
+    Google Scholar: https://scholar.google.com/citations?user=NFKpwloAAAAJ&hl=en
+    LinkedIn: https://www.linkedin.com/in/zhelun/
+    GitHub: https://github.com/ZhelunChen
 
 exclude:
   - LICENSE
