@@ -8,7 +8,7 @@ url: https://zhelunchen.github.io
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Zhelun "Aaron" Chen, PhD
+  name: Zhelun (Aaron) Chen, PhD
   description:
     - Research Scientist at Drexel University.
     - Research Vision: Explore the development and evolution of buildings and cities in the global challenges of 1) environmental and climate change, 2) grid transformation, and 3) data explosion.
