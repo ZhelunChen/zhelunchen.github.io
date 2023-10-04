@@ -18,7 +18,7 @@ layout: default
     {% if site.json.Interests.first %}
     <div id="typed-strings">
       {% for i in site.json.Interests %}
-      <span>{{ i | prepend: '"' | append: '",'}}</span>
+      <span>{{ i | prepend: '' | append: ''}}</span>
       {% endfor %}
     </div>
     <p><span class="key">Interests</span>{% include typed.html %}</p>

@@ -28,9 +28,9 @@ json:
     Phone: +1 412 230 7189
     Email: zl.chen.career@gmail.com
   Profiles:
-    Google Scholar: https://scholar.google.com/citations?user=NFKpwloAAAAJ&hl=en
     LinkedIn: https://www.linkedin.com/in/zhelun/
     GitHub: https://github.com/ZhelunChen
+    Google Scholar: https://scholar.google.com/citations?user=NFKpwloAAAAJ&hl=en
 
 exclude:
   - LICENSE
