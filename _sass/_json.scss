@@ -17,7 +17,7 @@
 }
 
 .key:after {
-  content: "";
+  content: ": ";
 }
 
 .attr,
@@ -31,7 +31,7 @@
 }
 
 .array-key:after {
-  content: "";
+  content: ": ";
 }
 
 .array-attr {
@@ -50,7 +50,7 @@
 }
 
 .list-key:after {
-  content: "";
+  content: ": ";
 }
 
 .list:after {
@@ -61,6 +61,6 @@
   margin-left: 1.5rem;
 
   &:after {
-    content: "";
+    content: ": ";
   }
 }
