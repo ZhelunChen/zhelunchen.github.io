@@ -2,10 +2,10 @@
   //white-space: nowrap;
 
   &:before {
-    content: "";
+    content: "{";
   }
   &:after {
-    content: "";
+    content: "}";
   }
 }
 
@@ -17,50 +17,50 @@
 }
 
 .key:after {
-  content: "";
+  content: ": ";
 }
 
 .attr,
 .list-attr {
   &:before {
-    content: '';
+    content: '"';
   }
   &:after {
-    content: '';
+    content: '",';
   }
 }
 
 .array-key:after {
-  content: "";
+  content: ": [";
 }
 
 .array-attr {
   margin-left: 1.5rem;
 
   &:before {
-    content: '';
+    content: '"';
   }
   &:after {
-    content: '';
+    content: '",';
   }
 }
 
 .array:after {
-  content: "";
+  content: "],";
 }
 
 .list-key:after {
-  content: "";
+  content: ": {";
 }
 
 .list:after {
-  content: "";
+  content: "},";
 }
 
 .list-subkey {
   margin-left: 1.5rem;
 
   &:after {
-    content: "";
+    content: ": ";
   }
 }
