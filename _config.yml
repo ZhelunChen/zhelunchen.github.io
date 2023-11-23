@@ -8,8 +8,8 @@ url: https://zhelunchen.github.io
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  Name: Zhelun (Aaron) Chen, PhD
-  Description: Research Scientist at Drexel University
+  Name: Zhelun Chen, PhD; aka Aaron
+  Description: Research Scientist @ Drexel University
   Interests:
     - Dynamic building system simulation
     - Artificial intelligence in buildings
